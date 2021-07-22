@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import Avatar from './Avatar/Avatar.js' ;
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Avatar url="https://cdn.vox-cdn.com/thumbor/X0mSm_q6AOCfWeJOT45kLFZCHlk=/95x601:1280x1460/920x613/filters:focal(538x858:742x1062):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66699060/mgidarccontentnick.comc008fa9d_d.0.png" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+       avatar
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
